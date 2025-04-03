@@ -36,7 +36,7 @@ const Landing: React.FC<LandingProps> = ({ navigation }) => {
 
     fetchUserData();
   }, []);
-
+  
   const handleLogout = async () => {
     await supabase.auth.signOut();
     navigation.replace('SignIn');
