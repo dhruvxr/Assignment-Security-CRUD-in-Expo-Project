@@ -43,10 +43,10 @@ const SignIn: React.FC<SignInProps> = ({ navigation }) => {
     </View>
   );
 };
-
+// Define basic styling for the component
 const styles = StyleSheet.create({
-  container: { padding: 20 },
-  input: { borderWidth: 1, padding: 10, marginVertical: 10, width: '100%' },
+  container: { padding: 20 }, // Adds padding around the main container
+  input: { borderWidth: 1, padding: 10, marginVertical: 10, width: '100%' }, // Style for input fields
 });
 
 export default SignIn;
